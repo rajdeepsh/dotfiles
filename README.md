@@ -14,21 +14,33 @@ binddel = SUPER CTRL, UP, Volume up, exec, omarchy-swayosd-client --output-volum
 unbind = SUPER CTRL, DOWN
 binddel = SUPER CTRL, DOWN, Volume down, exec, omarchy-swayosd-client --output-volume lower
 
-unbind = SUPER CTRL, S
-bindd = SUPER CTRL, S, Screenshot, exec, omarchy-capture-screenshot
+unbind = SUPER SHIFT, S
+bindd = SUPER SHIFT, S, Screenshot, exec, omarchy-capture-screenshot
+
+unbind = SUPER SHIFT ALT, S
+bindd = SUPER SHIFT ALT, S, Screenrecord, exec, omarchy-capture-screenrecording
 
 unbind = SUPER SHIFT, A
 bindd = SUPER SHIFT, A, Gemini, exec, omarchy-launch-webapp "https://gemini.google.com"
 
+unbind = SUPER SHIFT ALT, A
+bindd = SUPER SHIFT ALT, A, ChatGPT, exec, omarchy-launch-webapp "https://chatgpt.com"
+
 unbind = SUPER SHIFT, C
-bindd = SUPER SHIFT, C, Calendar, exec, omarchy-launch-webapp "https://calendar.google.com"
+bindd = SUPER SHIFT, C, Calendar, exec, omarchy-launch-or-focus-webapp "Calendar" "https://calendar.google.com"
 
 unbind = SUPER SHIFT, E
-bindd = SUPER SHIFT, E, Email, exec, omarchy-launch-webapp "https://mail.google.com"
+bindd = SUPER SHIFT, E, Email, exec, omarchy-launch-or-focus-webapp "Email" "https://mail.google.com"
 
 unbind = SUPER SHIFT, N
-bindd = SUPER SHIFT, N, Notes, exec, omarchy-launch-webapp "https://keep.google.com"
+bindd = SUPER SHIFT, N, Notes, exec, omarchy-launch-or-focus-webapp "Notes" "https://keep.google.com"
 
 unbind = SUPER SHIFT, D
-bindd = SUPER SHIFT, D, Drive, exec, omarchy-launch-webapp "https://drive.google.com"
+bindd = SUPER SHIFT, D, Drive, exec, omarchy-launch-or-focus-webapp "Drive" "https://drive.google.com"
+
+unbind = SUPER SHIFT, G
+bindd = SUPER SHIFT, G, Telegram, exec, omarchy-launch-or-focus-webapp "Telegram" "https://web.telegram.org"
+
+unbind = SUPER SHIFT ALT, G
+bindd = SUPER SHIFT ALT, G, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
 ```
