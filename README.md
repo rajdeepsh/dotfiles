@@ -14,6 +14,9 @@ binddel = SUPER CTRL, UP, Volume up, exec, omarchy-swayosd-client --output-volum
 unbind = SUPER CTRL, DOWN
 binddel = SUPER CTRL, DOWN, Volume down, exec, omarchy-swayosd-client --output-volume lower
 
+unbind = SUPER CTRL, S
+bindd = SUPER CTRL, S, Screenshot, exec, omarchy-capture-screenshot
+
 unbind = SUPER SHIFT, A
 bindd = SUPER SHIFT, A, Gemini, exec, omarchy-launch-webapp "https://gemini.google.com"
 
