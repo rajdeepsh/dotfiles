@@ -43,4 +43,7 @@ bindd = SUPER SHIFT, G, Telegram, exec, omarchy-launch-or-focus-webapp "Telegram
 
 unbind = SUPER SHIFT ALT, G
 bindd = SUPER SHIFT ALT, G, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
+
+unbind = SUPER SHIFT, O
+bindd = SUPER SHIFT, O, Monkeytype, exec, omarchy-launch-or-focus-webapp "Monkeytype" "https://monkeytype.com"
 ```
