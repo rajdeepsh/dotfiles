@@ -46,4 +46,7 @@ bindd = SUPER SHIFT ALT, G, Slack, exec, omarchy-launch-or-focus-webapp "Slack" 
 
 unbind = SUPER SHIFT, O
 bindd = SUPER SHIFT, O, Monkeytype, exec, omarchy-launch-or-focus-webapp "Monkeytype" "https://monkeytype.com"
+
+unbind = SUPER SHIFT, Z
+bindd = SUPER SHIFT, Z, Zoom, exec, omarchy-launch-or-focus-webapp "Zoom" "https://app.zoom.us/wc/home"
 ```
