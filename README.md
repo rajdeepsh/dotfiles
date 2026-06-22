@@ -41,15 +41,21 @@ bindd = SUPER SHIFT, N, Notes, exec, omarchy-launch-or-focus-webapp "Notes" "htt
 unbind = SUPER SHIFT, D
 bindd = SUPER SHIFT, D, Drive, exec, omarchy-launch-or-focus-webapp "Drive" "https://drive.google.com"
 
-unbind = SUPER SHIFT, G
-bindd = SUPER SHIFT, G, Telegram, exec, omarchy-launch-or-focus-webapp "Telegram" "https://web.telegram.org"
+unbind = SUPER SHIFT, T
+bindd = SUPER SHIFT, T, Telegram, exec, omarchy-launch-or-focus-webapp "Telegram" "https://web.telegram.org"
 
-unbind = SUPER SHIFT ALT, G
-bindd = SUPER SHIFT ALT, G, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
+unbind = SUPER SHIFT ALT, T
+bindd = SUPER SHIFT ALT, T, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
 
-unbind = SUPER SHIFT, O
-bindd = SUPER SHIFT, O, Monkeytype, exec, omarchy-launch-or-focus-webapp "Monkeytype" "https://monkeytype.com"
+unbind = SUPER SHIFT, X
+bindd = SUPER SHIFT, X, Monkeytype, exec, omarchy-launch-or-focus-webapp "Monkeytype" "https://monkeytype.com"
 
 unbind = SUPER SHIFT, Z
 bindd = SUPER SHIFT, Z, Zoom, exec, omarchy-launch-or-focus-webapp "Zoom" "https://app.zoom.us/wc/home"
+
+unbind = SUPER SHIFT, O
+bindd = SUPER SHIFT, O, github, exec, omarchy-launch-webapp "https://github.com"
+
+unbind = SUPER SHIFT ALT, O
+bindd = SUPER SHIFT ALT, O, overleaf, exec, omarchy-launch-or-focus-webapp "Overleaf" "https://overleaf.com"
 ```
