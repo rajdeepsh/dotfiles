@@ -32,6 +32,9 @@ bindd = SUPER SHIFT, C, Calendar, exec, omarchy-launch-or-focus-webapp "Calendar
 unbind = SUPER SHIFT, E
 bindd = SUPER SHIFT, E, Email, exec, omarchy-launch-or-focus-webapp "Email" "https://mail.google.com"
 
+unbind = SUPER SHIFT ALT, E
+bindd = SUPER SHIFT ALT, E, NUS Email, exec, omarchy-launch-or-focus-webapp "NUS Email" "https://outlook.office.com/mail"
+
 unbind = SUPER SHIFT, N
 bindd = SUPER SHIFT, N, Notes, exec, omarchy-launch-or-focus-webapp "Notes" "https://keep.google.com"
 
