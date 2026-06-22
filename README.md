@@ -1,7 +1,17 @@
 # dotfiles
 
-## Hyprland
+## Omarchy Setup
+### Monitors
 ```bash
 env = GDK_SCALE,1.75
 monitor=desc:ASUSTek COMPUTER INC XG27AQDMG S5LMRS002727,2560x1440@240,0x0,1.6
+```
+### Keybindings
+```bash
+unbind = SUPER CTRL, UP
+binddel = SUPER CTRL, UP, Volume up, exec, omarchy-swayosd-client --output-volume raise
+unbind = SUPER CTRL, DOWN
+binddel = SUPER CTRL, DOWN, Volume up, exec, omarchy-swayosd-client --output-volume lower
+unbind = SUPER SHIFT, A
+bindd = SUPER SHIFT, A, Gemini, exec, omarchy-launch-webapp "https://gemini.google.com"
 ```
