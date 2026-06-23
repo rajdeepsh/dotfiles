@@ -2,9 +2,20 @@
 
 ## Omarchy Setup
 ### Monitors
+#### Desktop
 ```bash
 env = GDK_SCALE,1.75
 monitor=desc:ASUSTek COMPUTER INC XG27AQDMG S5LMRS002727,2560x1440@240,0x0,1.6
+```
+#### Laptop
+```bash
+env = GDK_SCALE,2
+monitor=desc:Samsung Display Corp. ATNA40CU05-0,2880x1800@120,0x0,auto
+```
+### Input
+#### Laptop
+```bash
+kb_options = ctrl:nocaps,altwin:swap_alt_win
 ```
 ### Keybindings
 ```bash
