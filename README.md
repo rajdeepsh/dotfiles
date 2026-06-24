@@ -71,6 +71,8 @@ unbind = SUPER SHIFT ALT, O
 bindd = SUPER SHIFT ALT, O, overleaf, exec, omarchy-launch-or-focus-webapp "Overleaf" "https://overleaf.com"
 ```
 ### TUIs
+> [!IMPORTANT]
+> Remember to isntall `openfortivpn`.
 #### NUS Staff VPN
 ```bash
 sudo openfortivpn staffvpn.comp.nus.edu.sg:443 --saml-login
