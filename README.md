@@ -72,7 +72,7 @@ bindd = SUPER SHIFT ALT, O, overleaf, exec, omarchy-launch-or-focus-webapp "Over
 ```
 ### TUIs
 > [!IMPORTANT]
-> Isntall `openfortivpn` before running the VPN commands.
+> Isntall `openfortivpn` first before executing the VPN TUIs.
 #### NUS Staff VPN
 ```bash
 sudo openfortivpn staffvpn.comp.nus.edu.sg:443 --saml-login
