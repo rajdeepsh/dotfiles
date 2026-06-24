@@ -70,3 +70,12 @@ bindd = SUPER SHIFT, O, github, exec, omarchy-launch-webapp "https://github.com"
 unbind = SUPER SHIFT ALT, O
 bindd = SUPER SHIFT ALT, O, overleaf, exec, omarchy-launch-or-focus-webapp "Overleaf" "https://overleaf.com"
 ```
+### TUIs
+#### NUS Staff VPN
+```bash
+sudo openfortivpn staffvpn.comp.nus.edu.sg:443 --saml-login
+```
+#### NUS Student VPN
+```bash
+sudo openfortivpn webvpn.comp.nus.edu.sg:443 --saml-login
+```
