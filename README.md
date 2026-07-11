@@ -81,3 +81,7 @@ sudo openfortivpn staffvpn.comp.nus.edu.sg:443 --saml-login
 ```bash
 sudo openfortivpn webvpn.comp.nus.edu.sg:443 --saml-login
 ```
+### GitHub
+```bash
+gh auth login
+```
