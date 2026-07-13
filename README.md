@@ -105,7 +105,7 @@ customCommands:
   - key: 'v'
     context: 'files'
     description: 'Smart commit'
-    command: "MSG=$(git diff --staged | opencode run -c --agent plan 'Generate a concise git commit message for this staged diff. Output ONLY the raw commit message with no markdown, no code blocks, no backticks, no colons, no explanations.') && git commit -m \"$MSG\" && git push"
+    command: "git diff --staged --quiet || (MSG=$(git diff --staged | opencode run -c --agent plan 'Generate a concise git commit message for this staged diff. Output ONLY the raw commit message with no markdown, no code blocks, no backticks, no colons, no explanations.') && git commit -m \"$MSG\" && git push)"
     loadingText: 'Committing...'
     output: log
 ```
