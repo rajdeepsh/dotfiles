@@ -72,6 +72,8 @@ bindd = SUPER SHIFT ALT, O, overleaf, exec, omarchy-launch-or-focus-webapp "Over
 ```
 ### Configs
 #### LazyGit
+> [!IMPORTANT]
+> Isntall `git-delta` first.
 ##### config.yml
 ```
 gui:
@@ -108,8 +110,13 @@ customCommands:
     command: "git diff --staged --quiet || (MSG=$(git diff --staged | opencode run -c --agent plan 'Generate a concise git commit message for this staged diff. Output ONLY the raw commit message with no markdown, no code blocks, no backticks, no colons, no explanations.') && git commit -m \"$MSG\" && git push)"
     loadingText: 'Committing...'
     output: log
+git:
+  pagers:
+    - pager: delta --dark --paging=never
 ```
 #### OpenCode
+> [!IMPORTANT]
+> Isntall `uv` and `bun` first.
 ##### tui.json
 ```
 {
