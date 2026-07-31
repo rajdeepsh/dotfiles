@@ -31,11 +31,8 @@ bindd = SUPER SHIFT, S, Screenshot, exec, omarchy-capture-screenshot
 unbind = SUPER SHIFT ALT, S
 bindd = SUPER SHIFT ALT, S, Screenrecord, exec, omarchy-capture-screenrecording
 
-unbind = SUPER SHIFT, A
-bindd = SUPER SHIFT, A, Gemini, exec, omarchy-launch-webapp "https://gemini.google.com"
-
 unbind = SUPER SHIFT ALT, A
-bindd = SUPER SHIFT ALT, A, ChatGPT, exec, omarchy-launch-webapp "https://chatgpt.com"
+bindd = SUPER SHIFT ALT, A, Gemini, exec, omarchy-launch-webapp "https://gemini.google.com"
 
 unbind = SUPER SHIFT, C
 bindd = SUPER SHIFT, C, Calendar, exec, omarchy-launch-or-focus-webapp "Calendar" "https://calendar.google.com"
@@ -55,8 +52,8 @@ bindd = SUPER SHIFT, D, Drive, exec, omarchy-launch-or-focus-webapp "Drive" "htt
 unbind = SUPER SHIFT, T
 bindd = SUPER SHIFT, T, Telegram, exec, omarchy-launch-or-focus-webapp "Telegram" "https://web.telegram.org"
 
-unbind = SUPER SHIFT ALT, T
-bindd = SUPER SHIFT ALT, T, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
+unbind = SUPER SHIFT, G
+bindd = SUPER SHIFT, G, Slack, exec, omarchy-launch-or-focus-webapp "Slack" "https://nus-test.slack.com"
 
 unbind = SUPER SHIFT, X
 bindd = SUPER SHIFT, X, Monkeytype, exec, omarchy-launch-or-focus-webapp "Monkeytype" "https://monkeytype.com"
