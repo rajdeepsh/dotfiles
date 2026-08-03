@@ -25,6 +25,15 @@ binddel = SUPER CTRL, UP, Volume up, exec, omarchy-swayosd-client --output-volum
 unbind = SUPER CTRL, DOWN
 binddel = SUPER CTRL, DOWN, Volume down, exec, omarchy-swayosd-client --output-volume lower
 
+unbind = SUPER CTRL, RIGHT
+binddel = SUPER CTRL, RIGHT, Next track, exec, omarchy-swayosd-client --playerctl next
+
+unbind = SUPER CTRL, LEFT
+binddel = SUPER CTRL, LEFT, Previous track, exec, omarchy-swayosd-client --playerctl previous
+
+unbind = SUPER CTRL, RETURN
+binddel = SUPER CTRL, RETURN, Play-pause, exec, omarchy-swayosd-client --playerctl play-pause
+
 unbind = SUPER SHIFT, S
 bindd = SUPER SHIFT, S, Screenshot, exec, omarchy-capture-screenshot
 
