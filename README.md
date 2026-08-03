@@ -26,13 +26,13 @@ unbind = SUPER CTRL, DOWN
 binddel = SUPER CTRL, DOWN, Volume down, exec, omarchy-swayosd-client --output-volume lower
 
 unbind = SUPER CTRL, RIGHT
-binddel = SUPER CTRL, RIGHT, Next track, exec, omarchy-swayosd-client --playerctl next
+binddel = SUPER CTRL, RIGHT, Next track, exec, omarchy-swayosd-client --playerctl next --player spotify
 
 unbind = SUPER CTRL, LEFT
-binddel = SUPER CTRL, LEFT, Previous track, exec, omarchy-swayosd-client --playerctl previous
+binddel = SUPER CTRL, LEFT, Previous track, exec, omarchy-swayosd-client --playerctl previous --player spotify
 
 unbind = SUPER CTRL, RETURN
-binddel = SUPER CTRL, RETURN, Play-pause, exec, omarchy-swayosd-client --playerctl play-pause
+binddel = SUPER CTRL, RETURN, Play-pause, exec, omarchy-swayosd-client --playerctl play-pause --player spotify
 
 unbind = SUPER SHIFT, S
 bindd = SUPER SHIFT, S, Screenshot, exec, omarchy-capture-screenshot
